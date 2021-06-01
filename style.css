@@ -40,13 +40,14 @@ h2 {
 }
 
 .img-size1 {
-    width:400px;
-    height:400px;
+    width:250px;
+    height:250px;
 }
 
 .img-size2 {
-    width:300px;
-    height:300px;
+    position: absolute;
+    width:175px;
+    height:175px;
 }
 
 #vis-imgs1{
@@ -70,7 +71,7 @@ h2 {
 }
 
 .text-size {
-    font-size:25px;
+    font-size:23px;
     font-family:garamond;
     color:darkcyan;
 }
@@ -79,3 +80,23 @@ h2 {
     height:100px;
 }
 
+.box1 {
+    max-height:700px;
+
+}
+
+.box2 {
+    max-height:500px;
+}
+
+.position {
+    position:relative;
+    height: 80%;
+    width: 100%;
+}
+
+.container-size {
+    margin-left:15%;
+    padding-left:0;
+    padding-right:0;
+}
