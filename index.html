@@ -3,27 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <title>Landing</title>
-    <link rel="stylesheet" type="text/css" href="style.css"> 
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body class="lightgrey-background">
 
-<section class= "section-header">
-    <h1 class="latitude">Latitude</h1>
-</section>
+    <!--  NAVBAR  -->
+    <nav class="navbar navbar-expand-lg navbar-light py-0 white">
+        <a class="navbar-brand p-4 latitude white_text" href="#">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-<div class= "section-grey">
-    <section class = "section-1">
-        <h2><b>Summary: Latitude vs. X</b></h2>
-        <hr>    
-        <section>
-            <img src="visualizations/Fig1.png" id="landing-img-size">
-            <p class= "font-size">The purpose of this project was to analyze how weather changes as you get cloer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataseet on over 500 cities. <br><br> After Assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This sit provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
-        </section>
-        </h2>
-    </section>
-</div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Plots
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
 
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Comparison<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Data<span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
+    </div>
+    </nav>
+
+    <!--  CONTENT  -->    
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-6 white pt-5">
+                <h1>Summary: Latitude vs. X</h1>
+                <hr>
+                <img src="visualizations/Fig1.png" class="img-size1" align="left">
+                <p class="text-size">The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities. <br><br> After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This sit provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+            </div>
+
+            <div class="col-md-1 pt-5">
+                
+            </div>
+
+            <div class="col-md-4 white pt-5">
+                <h2>Visualizations</h2>
+                <hr>
+                <div>
+                    <a href="#">
+                        <img src="visualizations/Fig1.png" href="#" class="img-size2" id="vis-imgs1">
+                    </a>
+                    <a href="#">
+                        <img src="visualizations/Fig2.png" class="img-size2" id="vis-imgs2">
+                    </a>
+                    <a href="#">
+                        <img src="visualizations/Fig3.png" class="img-size2" id="vis-imgs3">
+                    </a>    
+                    <a href="#">
+                        <img src="visualizations/Fig4.png" class="img-size2" id="vis-imgs4">
+                    </a>
+                </div>   
+            </div> 
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
-
-</html>

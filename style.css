@@ -1,82 +1,81 @@
-body {
-    position: relative;
-    background:lightgray;
-    margin: 0;
-    height:1000px;
-}
-
-hr {
-    margin-bottom:5%;
-    border-color: lightgrey
-}
-
-p {
-    color:darkcyan;
-    font-size:20px;
-    
-}
-
-/* CLASSES */
-
-/*SECTION 1 */
-.section1 {
-    position: relative;
-    background-color:white;
-    height:8%;
-}
-
-.h1-latitude {
-    position: absolute;
-    background-color:teal;
-    color:white;
-    font-family:Garamond;
-    font-size: 40px;
-    margin: 0;
-    height: 50%;
-    width: 10%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align:center;
-}
-
-.lat {
-    left: 1%;
-}
-
-
-
-/*SECTION 2*/
-.section2{
-    position: relative;
-    background-color:lightgreen;
-    height:70%;
-    width:75%;
-}
-
-.section2-position{
-    top: 5%;
-    left: 10%;
-}
-
-/*SECTION 2-1*/
-.section2-1{
-    position: absolute;
-    background-color:white;
-    width:60%;
-    height:100%;
-    padding-left:3%;
-    padding-right:3%;
-}
-
-.h2{
-    font-size: 55px;
+/* HEADERS */
+h1 {
     color:teal;
-    font-family:Garamond;
-
+    font-weight:bold;
+    font-family:Verdana;
+    font-size:40px;
 }
 
-.img-size{
-    height:40%;
-    width:40%;
-
+h2 {
+    color:teal;
+    font-weight:bold;
+    font-family:Verdana;
+    font-size:35px;
 }
+
+.white {
+    background-color:white;
+}
+
+.lightgrey-background {
+    background-color:lightgrey;
+}
+
+
+.white_text {
+    color:white;
+}
+
+.latitude {
+    font-size: 30px;
+    font-weight:bold;
+    background-color:teal;
+    font-family:Verdana;    
+}
+
+.index_box1 {
+    border-width: medium;
+    min-height: 50px;
+    background-color:grey;
+}
+
+.img-size1 {
+    width:400px;
+    height:400px;
+}
+
+.img-size2 {
+    width:300px;
+    height:300px;
+}
+
+#vis-imgs1{
+    top:0;
+    left:0;
+}
+
+#vis-imgs2{
+    top:0;
+    right:0;
+}
+
+#vis-imgs3{
+    bottom:0;
+    left:0;
+}
+
+#vis-imgs4{
+    bottom:0;
+    right:0;
+}
+
+.text-size {
+    font-size:25px;
+    font-family:garamond;
+    color:darkcyan;
+}
+
+.height-100px {
+    height:100px;
+}
+
