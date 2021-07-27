@@ -1,4 +1,5 @@
 # HTML & CSS
+This is the repository for an HTML and CSS project
 
 
 -- Files included: --
