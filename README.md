@@ -1,9 +1,4 @@
-This is Git Repository for Homework 9 - Web
-
--- Use this website to view the homework: --
-
-https://mahatmak.github.io/Homework9-Web-Design-Challenge/
-
+# HTML & CSS
 
 
 -- Files included: --
